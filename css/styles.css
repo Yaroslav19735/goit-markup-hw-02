@@ -23,6 +23,11 @@ body {
     list-style: none;
     
 }
+
+ .header-logo {
+    text-decoration: none;
+ }
+
 .link {
     text-decoration: none;
 }
@@ -38,6 +43,10 @@ color: #2196F3;
     font-size: 14px;
     line-height: 1.14;
     color: var(--main-txt-light);
+    
+}
+.header-list {
+    list-style: none;
 }
 
 .header-link:hover,
