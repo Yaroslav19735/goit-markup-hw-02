@@ -63,8 +63,8 @@ color: #2196F3;
     color: var(--accent-color);
 }
 
-.header-contact :hover,
-.header-contact :focus {
+.header-contact:hover,
+.header-contact:focus {
     color: var(--accent-color);
 }
 
@@ -176,3 +176,52 @@ color: #2196F3;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-light);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #188CE8;
+    color: var(--main-txt-dark);
+}
+.carrent-btn-all {
+    color: var(--main-txt-dark);
+        background-color: var(--accent-color);
+}
+.portfolio-title {
+    font-family: var(--main-font), "sans-serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.19;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-light);
+}
+.portfolio-text {
+    font-family: var(--main-font), "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--p-color);
+}
+.portfolio-contact {
+    font-family: var(--main-font), "sans-serif";
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--p-color);
+}
+.portfolio-contact {
+    text-shadow: none;
+}
+
